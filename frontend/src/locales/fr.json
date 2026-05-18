@@ -1,0 +1,35 @@
+{
+  "header": {
+    "newDocument": "↩ Nouveau document"
+  },
+  "tabs": {
+    "summary": "∑ Résumé",
+    "chat": "◎ Discussion"
+  },
+  "upload": {
+    "title": "Déposez un document.\nObtenez une analyse instantanée.",
+    "subtitle": "Résumez n'importe quel PDF ou discutez avec lui",
+    "dropLabel": "Déposez votre PDF ici",
+    "dropSub": "ou cliquez pour parcourir — max 20 Mo",
+    "extracting": "Extraction du texte en cours…",
+    "errorNotPdf": "Veuillez téléverser un fichier PDF.",
+    "errorGeneric": "Échec du téléversement",
+    "featureSummary": "Résumé IA détaillé",
+    "featureChat": "Discutez avec votre document",
+    "featurePowered": "Propulsé par Claude"
+  },
+  "summary": {
+    "label": "Résumé IA",
+    "regenerate": "↻ Régénérer",
+    "analyzing": "Analyse du document…",
+    "analyzingSub": "Cela prend 10 à 20 secondes pour les longs documents",
+    "errorRetry": "Réessayer",
+    "errorFailed": "Échec de la génération du résumé"
+  },
+  "chat": {
+    "greeting": "Bonjour ! J'ai lu votre document. Posez-moi n'importe quelle question à son sujet.",
+    "you": "Vous",
+    "placeholder": "Posez une question sur le document…",
+    "errorFailed": "Échec de la réponse"
+  }
+}

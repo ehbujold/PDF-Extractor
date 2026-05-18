@@ -1,0 +1,35 @@
+{
+  "header": {
+    "newDocument": "↩ New document"
+  },
+  "tabs": {
+    "summary": "∑ Summary",
+    "chat": "◎ Chat"
+  },
+  "upload": {
+    "title": "Drop a document.\nGet instant intelligence.",
+    "subtitle": "Summarize any PDF or chat with it",
+    "dropLabel": "Drop your PDF here",
+    "dropSub": "or click to browse — max 20 MB",
+    "extracting": "Extracting document text…",
+    "errorNotPdf": "Please upload a PDF file.",
+    "errorGeneric": "Upload failed",
+    "featureSummary": "Detailed AI summary",
+    "featureChat": "Chat with your document",
+    "featurePowered": "Powered by Claude"
+  },
+  "summary": {
+    "label": "AI Summary",
+    "regenerate": "↻ Regenerate",
+    "analyzing": "Analyzing document…",
+    "analyzingSub": "This takes 10–20 seconds for long documents",
+    "errorRetry": "Try again",
+    "errorFailed": "Failed to generate summary"
+  },
+  "chat": {
+    "greeting": "Hi! I've read your document. Ask me anything about it.",
+    "you": "You",
+    "placeholder": "Ask anything about the document…",
+    "errorFailed": "Failed to get answer"
+  }
+}
