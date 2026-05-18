@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 # DocMind — AI Document Assistant
 
 Upload a PDF. Get an instant AI summary or chat with it directly.  
 Built with React, Node.js, and the Anthropic Claude API.
+=======
+# PDF-Extractor
+Application qui permet d'analyser rapidement un document PDF, d'en faire un résumé élaboré ainsi que de lui pauser des questions directement.
+>>>>>>> 45e4e240f291c74c68eaf9e555176cb577225a29
 
 ---
 
