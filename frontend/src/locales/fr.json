@@ -22,7 +22,7 @@
     "label": "Résumé IA",
     "regenerate": "↻ Régénérer",
     "analyzing": "Analyse du document…",
-    "analyzingSub": "Cela prend 10 à 20 secondes pour les longs documents",
+    "analyzingSub": "Veuillez patienter un moment.",
     "errorRetry": "Réessayer",
     "errorFailed": "Échec de la génération du résumé"
   },

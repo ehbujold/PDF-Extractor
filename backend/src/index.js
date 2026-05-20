@@ -4,11 +4,15 @@ import multer from "multer";
 import Anthropic from "@anthropic-ai/sdk";
 import { extractTextFromPDF } from "./pdfService.js";
 import { generateSummary, askQuestion } from "./claudeService.js";
+import rateLimit from "express-rate-limit";
 
 const app = express();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 20 * 1024 * 1024 } }); // 20MB limit
 
-app.use(cors());
+app.use(cors({
+  origin: "https://pdf-extractor-ehbujold-s-projects.vercel.app/"
+}));
+app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 20 }));
 app.use(express.json());
 
 // In-memory store for extracted PDF text (keyed by a simple session id)
