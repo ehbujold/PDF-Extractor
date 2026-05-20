@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # DocMind — AI Document Assistant
 
 Upload a PDF. Get an instant AI summary or chat with it directly.  
@@ -6,7 +6,6 @@ Built with React, Node.js, and the Anthropic Claude API.
 =======
 # PDF-Extractor
 Application qui permet d'analyser rapidement un document PDF, d'en faire un résumé élaboré ainsi que de lui pauser des questions directement.
->>>>>>> 45e4e240f291c74c68eaf9e555176cb577225a29
 
 ---
 
@@ -81,19 +80,12 @@ docmind/
 | POST | `/api/summarize` | Generate a summary for a `documentId` |
 | POST | `/api/chat` | Ask a question, with conversation history |
 
----
 
-## Deployment (when ready)
-
-- **Backend**: Railway, Render, or Fly.io (set `ANTHROPIC_API_KEY` as an env variable)
-- **Frontend**: Vercel or Netlify (set `VITE_API_URL` to your backend URL)
 
 ---
 
-## Next features (SaaS v2 ideas)
+## Improvement Ideas
 
-- [ ] User authentication
-- [ ] Persistent document storage (S3 + PostgreSQL)
-- [ ] Usage limits + billing (Stripe)
-- [ ] Export summary as PDF or Markdown
-- [ ] Multi-document chat
+- Display the pdf on the left side and summary / chat pannel on the right side
+- Not reset the summary / chat when switching between chat and summary
+- Changing language automatically calls for another summary / chat
